@@ -1,0 +1,31 @@
+<?php
+
+/**
+ * @file
+ * Singapore.
+ */
+
+/**
+ * Returns an associative array of states/territories.
+ */
+function location_province_list_sg() {
+  return array(
+	'CS' => "Central Singapore",
+	'SW' => "South West Region",
+	'NW' => "North West Region",
+	'NE' => "North EastRegion",
+	'SE' => "South East Region",
+  	);
+}
+
+/**
+ * Returns minimum and maximum latitude and longitude needed to create a bounding box.
+ */
+function location_bounds_sg() {
+  return array(
+    'minlng' => 103.6183,
+    'minlat' => 1.3645,
+    'maxlng' => 103.88895,
+    'maxlat' => 1.4793,
+  );
+}
